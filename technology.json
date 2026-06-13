@@ -1,0 +1,33 @@
+{
+  "project": "Floating Calculator",
+  "type": "native macOS utility",
+  "version": "1.0",
+  "languages": [
+    "Swift",
+    "Bash"
+  ],
+  "frameworks": [
+    "AppKit"
+  ],
+  "platforms": [
+    "macOS"
+  ],
+  "buildTools": [
+    "Swift Package Manager",
+    "sips",
+    "iconutil",
+    "codesign",
+    "ditto"
+  ],
+  "distribution": [
+    "GitHub Releases",
+    "ZIP app bundle"
+  ],
+  "features": [
+    "Floating always-on-top calculator window",
+    "Keyboard and numeric keypad support",
+    "Repeat equals operation",
+    "Custom grouped calculator button styling",
+    "Custom app icon"
+  ]
+}
